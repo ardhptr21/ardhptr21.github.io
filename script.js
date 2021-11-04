@@ -24,7 +24,7 @@ core.onmouseleave = () => {
  *    LINK MANIPULATE
  *------------------------**/
 const links = [
-  { img: "./assets/youtube.png", url: "https://youtube.com" },
+  { img: "./assets/youtube.png", url: "https://www.youtube.com/channel/UCrQeCLMu3GGVZp52S8tvaHw" },
   { img: "./assets/instagram.png", url: "https://instagram.com/ardhptr21" },
   { img: "./assets/twitter.png", url: "https://twitter.com/ardhptr21" },
   { img: "./assets/github.png", url: "https://github.com/ardhptr21" },
