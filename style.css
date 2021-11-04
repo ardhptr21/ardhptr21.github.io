@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 100px;
+  min-height: 100vh;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Concert One";
+  cursor: default;
+  font-weight: normal;
+}
+h1 span {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+h1 span:hover {
+  background: linear-gradient(90deg, rgba(144, 195, 76, 1) 15%, rgba(0, 145, 66, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 1.5rem;
+  max-width: 40ch;
+  margin: 2rem 0;
+}
+
+button {
+  background-color: #4286f5;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5593f8;
+}
+
+img.dino {
+  width: 35%;
+}
+
+.link {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.icon img {
+  width: 30px;
+  filter: grayscale(1);
+  transition: 500ms;
+}
+
+.icon:hover img {
+  filter: grayscale(0);
+}
