@@ -34,7 +34,7 @@ body {
   font-size: calc(100vw / 1.7 );
   font-weight: bold;
   transform: skewY(-30deg);
-  opacity: 0.03;
+  opacity: 0.1;
   animation: containerAnim infinite 8s linear;
 }
 
@@ -67,7 +67,7 @@ h1 span {
   text-decoration: underline;
 }
 h1 span:hover {
-  background: linear-gradient(90deg, rgba(144, 195, 76, 1) 15%, rgba(0, 145, 66, 1) 100%);
+  background: linear-gradient(90deg, rgb(144, 195, 76) 15%, rgba(0, 145, 66, 1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -211,4 +211,11 @@ button.real {
   pointer-events: none;
   opacity: 0.8;
   transition: 100ms;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }

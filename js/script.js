@@ -83,3 +83,10 @@ function callConfetti(duration, animationEnd, skew) {
 function randomInRange(min, max) {
   return Math.random() * (max - min) + min;
 }
+
+/**--------------------------------------------
+ *               PARTICLES JS
+ *---------------------------------------------**/
+particlesJS.load("particles-js", "./particlesConfig.json", function() {
+  console.log("callback - particles.js config loaded");
+});
